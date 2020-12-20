@@ -1,14 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import GlobalStyles from "../Styles/GlobalStyles";
+import Theme from "../Styles/Theme";
 
-class App extends Component {
-  render() {
-    return (
-      <>
-        <div className="App" />
-        <h1>Hello Instagram</h1>
-      </>
-    );
-  }
-}
-
-export default App;
+export default () => {
+  <ThemeProvider theme={Theme}>
+    <GlobalStyles />
+  </ThemeProvider>;
+};

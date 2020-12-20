@@ -11,5 +11,9 @@ $ yarn add react-helmet # 리액트 header runtime
 $ yarn add react-router-dom # 웹 전용 리액트 라우터
 $ yarn add react-toastify # add notifications to your app 손쉽게 적용
 $ yarn add styled-components # styled ( CSS in JS )
-$  yarn add styled-reset # css 초기화
+$ yarn add styled-reset # css 초기화
 ```
+
+- vscode extension
+  - vscode-styled-components
+  - 

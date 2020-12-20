@@ -1,6 +1,6 @@
 #!/bin/sh
 # use: $ push.sh -c TEST -m "커밋할 메시지, 띄워쓰기 하기 위해서 use Double quotes"
-CURRENT_CATEGORY='CRA'
+CURRENT_CATEGORY='React'
 COMMIT_MSG="$(date)"
 
 ## 도움말 출력하는 함수
