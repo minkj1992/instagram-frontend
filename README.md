@@ -1,11 +1,14 @@
-# instagram-frontend
-About Frontend for Instaclone (GraphQL + Hooks)
+# `instagram-frontend`
+
+> 클론코딩 instagram
+
+About Frontend for `Instagram` (GraphQL + Hooks)
 
 ## setting
 
 ```bash
 $ npx create-react-app instagram-frontend
-$ yarn add @apollo/client graphql # graphql-client
+yarn add @apollo/client graphql # graphql-client
 $ yarn add prop-types # Runtime type checking for React props and similar objects.
 $ yarn add react-helmet # 리액트 header runtime 
 $ yarn add react-router-dom # 웹 전용 리액트 라우터
@@ -16,4 +19,4 @@ $ yarn add styled-reset # css 초기화
 
 - vscode extension
   - vscode-styled-components
-  - 
+  
