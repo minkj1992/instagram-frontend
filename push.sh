@@ -31,7 +31,7 @@ done
 
 printf "\033[0;32mPush to forked repo and origin repo to GitHub...\033[0m\n"
 
-# git pull origin main
-# git add .
-# git commit -m "[$CURRENT_CATEGORY] $msg"
-# git push origin main
+git pull origin main
+git add .
+git commit -m "[$CURRENT_CATEGORY] $COMMIT_MSG"
+git push origin main
