@@ -1,1 +1,7 @@
-export default () => "Feed";
+export default () => {
+  return (
+    <>
+      <h1>FEED</h1>
+    </>
+  );
+};
